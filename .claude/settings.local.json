@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip list *)",
+      "Bash(python 01-helloworld.py)",
+      "Bash(python 02-隐藏key密钥.py)",
+      "Bash(python 04-langchain_demo.py)",
+      "Bash(python 05-angent_demo.py)",
+      "Bash(python -c \"import streamlit; print\\('streamlit ok'\\)\")",
+      "Bash(python -c \"from langchain import agents; print\\(dir\\(agents\\)\\)\")",
+      "Bash(python -c \"import sys; print\\(sys.stdout.encoding\\)\")",
+      "Bash(python -c \"from langchain.agents import create_agent; help\\(create_agent\\)\")",
+      "Bash(pip show *)",
+      "Bash(python -c \"from langchain_classic.agents import create_react_agent; print\\('found in langchain_classic'\\)\")",
+      "Bash(python -c \"import langchain_classic; print\\(dir\\(langchain_classic\\)\\)\")",
+      "Bash(pip install *)",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
